@@ -9,7 +9,7 @@ import java.util.List;
 
 public class Main {
     public static void main(String[] args) throws IOException, InterruptedException {
-        BufferedImage img = ImageIO.read(new File("MazeSolver\\testMazes"));
+        BufferedImage img = ImageIO.read(new File("MazeSolver\\testMazes\\img.gif"));
         int[][] skelMaze = ZhangSuen(greyscaleToBinary(rgbToGreyscale(img), 128));
         int[] s = {3, 1};
         int[] e = {398, 399};
