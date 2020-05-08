@@ -1,4 +1,4 @@
-#M AZE SOLVER
+# MAZE SOLVER
 
 ## Description
 A-Level coursework project
